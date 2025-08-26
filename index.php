@@ -1,8 +1,8 @@
 <?php
 
-	require 'controller.php';
+	require 'controllers/Products.php';
 
-	$controller = new Controller();
-	$controller->index();
+	$products_controller = new Products();
+	$products_controller->index();
 
 
